@@ -1,0 +1,9 @@
+Histogram: Number of Keys vs. Node ID
+===================================
+Node 6: 14290 keys
+Node 5: 14271 keys
+Node 4: 14263 keys
+Node 3: 14271 keys
+Node 2: 14291 keys
+Node 1: 14307 keys
+Node 0: 14307 keys

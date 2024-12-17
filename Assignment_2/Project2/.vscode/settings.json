@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "server.h": "c",
+        "client.h": "c",
+        "common_api.h": "c",
+        "snappy.h": "c"
+    }
+}

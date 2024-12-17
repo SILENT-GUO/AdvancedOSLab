@@ -1,0 +1,18 @@
+To compile server part, run: make server
+To compile client part, run: make client
+To compile all, run: make all
+To clean, run: make clean
+To run a server, run: 
+./bin/object/tinyfile-server --n_sms 5 --sms_size 256
+./bin/object/tinyfile-server --n_sms 5 --sms_size 512
+./bin/object/tinyfile-server --n_sms 5 --sms_size 1024
+./bin/object/tinyfile-server --n_sms 5 --sms_size 2048
+./bin/object/tinyfile-server --n_sms 5 --sms_size 4096
+./bin/object/tinyfile-server --n_sms 5 --sms_size 8192
+To run a sample client, run: 
+./bin/object/tinyfile-client --file ./bin/input/Medium.pdf --state SYNC 
+./bin/object/tinyfile-client --file ./bin/input/Medium.pdf --state ASYNC
+./bin/object/tinyfile-client --files ./bin/input/filelist.txt --state SYNC
+./bin/object/tinyfile-client --files ./bin/input/filelist.txt --state ASYNC
+
+Must Run Server First Before Running Client!

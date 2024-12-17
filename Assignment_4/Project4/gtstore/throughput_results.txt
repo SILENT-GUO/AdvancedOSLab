@@ -1,0 +1,5 @@
+Throughput Results (Ops/s) against Number of Replicas
+===================================
+1 replicas: 6666 Ops/s
+3 replicas: 2857 Ops/s
+5 replicas: 1666 Ops/s
